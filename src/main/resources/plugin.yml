@@ -1,0 +1,11 @@
+name: Sudo
+version: '${project.version}'
+main: net.daechler.sudo.Sudo
+api-version: 1.19
+authors: [Daechler]
+description: Send commands and messages for another player.
+commands:
+  sudo:
+    description: Execute a command or send a message as another player.
+    usage: /sudo <player> <command or message>
+    permission: sudo.use
